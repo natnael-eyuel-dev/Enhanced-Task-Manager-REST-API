@@ -37,11 +37,11 @@ Host: localhost:8080
 **Description**: Retrieves a specific task by ID
 
 **Path Parameters**:
-- `id` (required): Task ID (integer)
+- `id` (required): Task ID 
 
 **Request**:
 ```http
-GET /tasks/1 HTTP/1.1
+GET /tasks/6878d8c9... HTTP/1.1
 Host: localhost:8080
 ```
 
@@ -110,11 +110,11 @@ Content-Type: application/json
 **Description**: Updates an existing task (full or partial update)
 
 **Path Parameters**:
-- `id` (required): Task ID (integer)
+- `id` (required): Task ID 
 
 **Request**:
 ```http
-PUT /tasks/1 HTTP/1.1
+PUT /tasks/6878d8c9... HTTP/1.1
 Host: localhost:8080
 Content-Type: application/json
 
@@ -151,11 +151,11 @@ Content-Type: application/json
 **Description**: Deletes a task by ID
 
 **Path Parameters**:
-- `id` (required): Task ID (integer)
+- `id` (required): Task ID 
 
 **Request**:
 ```http
-DELETE /tasks/1 HTTP/1.1
+DELETE /tasks/6878d8c9... HTTP/1.1
 Host: localhost:8080
 ```
 
