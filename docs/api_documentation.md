@@ -120,7 +120,6 @@ Content-Type: application/json
 
 {
     "status": "in_progress",
-    "description": "Updated description"
 }
 ```
 
